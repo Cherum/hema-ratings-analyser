@@ -55,7 +55,7 @@ def parsePageForClubs(requestUrl):
 def main(argv):
     memberCutOff = 0
     minimalConfidenceLevel = ConfidenceLevel.ALL
-    requestUrl = 'https://hemaratings.com/periods/details/?ratingsetid=1&nationality=de&year=2020&month=8'
+    requestUrl = 'https://hemaratings.com/periods/details/?ratingsetid=1&nationality=us'
 
     try:
         opts, args = getopt.getopt(argv,"hm:u:c:")
